@@ -24,3 +24,33 @@
 @media(max-width:760px){.hero-intro h1 br:first-child{display:block}.hero-intro h1 br:nth-child(2){display:none}.hero-intro h1{font-size:clamp(44px,10.8vw,70px)}}
 
 @media(max-width:760px){.hero-intro h1>span:not(.title-period){margin-left:.13em}.hero-intro>p,.hero-intro>.text-link,.quick-links a,.room-info p,.gallery-item figcaption,.form-note,.form-status,.footer-grid a,.footer-grid p{font-size:12px}.hero-intro>.text-link{gap:14px}.gallery-page .gallery-item figcaption,.footer-top p,.footer-bottom p,.footer-bottom>a{font-size:10px}.form-note{font-size:11px}.hero-intro>p{font-size:11px}}
+
+/* Group collection — shared across every Turkish and English page. */
+.group-collection{background:#192b35;color:#f7f9f8;padding:64px 0 70px}
+.group-collection-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:48px;margin-bottom:35px}
+.group-collection-heading .eyebrow{color:#cbd6aa;font-size:10px;letter-spacing:.22em;margin-bottom:12px}
+.group-collection-heading h2{font-size:38px;font-weight:500;letter-spacing:-.035em}
+.group-collection-heading>p{max-width:340px;color:#b7c5cd;font-size:13px;line-height:1.9}
+.brand-categories{display:grid;grid-template-columns:1fr 1.8fr 1fr;gap:22px}
+.brand-category{border:1px solid #3a4d57;padding:25px 24px 10px;background:#20333f;min-width:0}
+.brand-category h3{display:flex;align-items:center;gap:12px;font-size:13px;font-weight:600;letter-spacing:.015em;line-height:1.5;padding-bottom:19px;border-bottom:1px solid #3a4d57}
+.brand-category h3>span{font-size:9px;letter-spacing:.08em;font-weight:400;color:#aebfc8}
+.brand-category-grid{display:grid;grid-template-columns:1fr}
+.category-lounges .brand-category-grid{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:22px}
+.group-brand{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;min-width:0;min-height:180px;padding:19px 8px 20px;border-bottom:1px solid #3a4d57;transition:background .25s}
+.group-brand:last-child,.category-lounges .group-brand:nth-last-child(-n+2){border-bottom:0}
+.group-brand-logo{height:99px;width:100%;display:flex;align-items:center;justify-content:center;margin-bottom:14px}
+.group-brand-logo img{object-fit:contain;width:auto;height:auto;max-width:100%;max-height:97px;transition:transform .25s;filter:none}
+.category-hotels .group-brand-logo img{max-width:188px;max-height:73px}
+.category-design-travel .group-brand-logo img{max-height:92px}
+.group-brand-name{font-size:12px;font-weight:600;color:#fff;line-height:1.6;letter-spacing:.005em}
+.group-brand-detail{font-size:10px;color:#b7c5cd;line-height:1.7;margin-top:3px}
+.group-brand-arrow{position:absolute;right:0;top:15px;font-size:18px;color:#b7c5cd;transition:color .25s,transform .25s}
+.group-brand:hover{background:rgba(255,255,255,.025)}
+.group-brand:hover .group-brand-logo img{transform:translateY(-3px)}
+.group-brand:hover .group-brand-arrow{color:#fff;transform:translate(2px,-2px)}
+.group-brand:focus-visible{outline:2px solid #cbd6aa;outline-offset:3px}
+.site-footer .footer-grid{grid-template-columns:1fr 1.3fr 1fr;gap:70px}
+@media(max-width:1050px){.group-collection{padding-block:50px}.brand-categories{gap:16px;grid-template-columns:1fr 1.6fr 1fr}.brand-category{padding:22px 15px 8px}.category-hotels .group-brand-logo img{max-width:100%}.group-brand-name{font-size:11px}.group-brand-detail{font-size:9px}.category-lounges .brand-category-grid{column-gap:12px}.site-footer .footer-grid{gap:35px}}
+@media(max-width:760px){.group-collection{padding:43px 0 46px}.group-collection-heading{display:block;margin-bottom:27px}.group-collection-heading h2{font-size:31px}.group-collection-heading>p{font-size:12px;max-width:320px;margin-top:17px;line-height:1.9}.group-collection-heading .eyebrow{font-size:9px;margin-bottom:10px}.brand-categories{grid-template-columns:1fr;gap:17px}.brand-category{padding:22px 19px 8px}.brand-category h3{font-size:13px;padding-bottom:18px}.brand-category-grid,.category-lounges .brand-category-grid{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:18px}.group-brand{min-height:172px;padding:20px 0 18px}.group-brand:nth-last-child(-n+2){border-bottom:0}.group-brand-logo{height:91px;margin-bottom:12px}.group-brand-logo img{max-height:87px}.category-hotels .group-brand-logo img{max-width:100%;max-height:70px}.category-design-travel .group-brand-logo img{max-height:86px}.group-brand-name{font-size:11px}.group-brand-detail{font-size:9px}.group-brand-arrow{top:12px;font-size:16px;right:0}.site-footer .footer-grid{grid-template-columns:1fr 1fr;gap:35px 24px}.site-footer .footer-review{grid-column:1/-1;border-top:1px solid #cbd5d9;padding-top:26px}.site-footer .footer-review>a{width:max-content}}
+@media(prefers-reduced-motion:reduce){.group-brand,.group-brand-logo img,.group-brand-arrow{transition:none}}

@@ -1,0 +1,39 @@
+{
+  "checked": "2026-09-22",
+  "reference": "https://inanlarcity.com/",
+  "logos": [
+    {
+      "file": "hotel-assets/brands/dobos-trabzon.svg",
+      "source": "https://inanlarcity.com/assets/dobos-trabzon.svg"
+    },
+    {
+      "file": "hotel-assets/brands/dobos-uzungol.svg",
+      "source": "https://inanlarcity.com/assets/dobos-uzungol.svg"
+    },
+    {
+      "file": "hotel-assets/brands/inanlar-city.svg",
+      "source": "https://inanlarcity.com/assets/inanlar-city.svg"
+    },
+    {
+      "file": "hotel-assets/brands/inanlar-premium.svg",
+      "source": "https://inanlarcity.com/assets/inanlar-premium.svg"
+    },
+    {
+      "file": "hotel-assets/brands/yabu-design.svg",
+      "source": "https://inanlarcity.com/assets/yabu-design.svg"
+    },
+    {
+      "file": "hotel-assets/brands/zeen-lounge.svg",
+      "source": "https://inanlarcity.com/assets/zeen-lounge.svg"
+    },
+    {
+      "file": "hotel-assets/brands/zeen-premium.svg",
+      "source": "https://inanlarcity.com/assets/zeen-premium.svg"
+    },
+    {
+      "file": "hotel-assets/brands/exdio-travel.webp",
+      "source": "https://yabuinvest.com/assets/img/about/exdiotravel.png",
+      "note": "Önceki Exdio paketindeki özgün logonun web sürümü; yeniden düzenlenmedi."
+    }
+  ]
+}
