@@ -1,4 +1,3 @@
-User-Agent: *
-Allow: 
-
-Sitemap: https://www.inanlarhotel.com/sitemap.xml
+User-agent: *
+Allow: /
+Sitemap: https://inanlarhotel.com/sitemap.xml
