@@ -6,5 +6,5 @@ window.INANLAR_HOTEL_SETTINGS = {
     "inanlarhotel.com",
     "www.inanlarhotel.com"
   ],
-  "reservationUrl": "https://inanlar-hotel-1.hotelrunner.com/bv2/search"
+  "reservationUrl": "iletisim.html"
 };
